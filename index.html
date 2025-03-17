@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Quotes Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="quote-container" id="quote-container">
+      <div class="quote-content">
+        <h1>Random Quotes</h1>
+        <p class="quote-text" id="quote"></p>
+        <p class="author" id="author"></p>
+        <div class="buttons">
+          <button id="new-quote">New Quote</button>
+          <button id="copyBtn">Copy Quote</button>
+          <button id="shareBtn">Share on Twitter</button>
+          <button id="exportBtn">Export as Image</button>
+        </div>
+      </div>
+    </div>
+    <!-- play cdn link for making html2canvas to work on this page-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

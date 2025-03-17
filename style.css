@@ -1,0 +1,80 @@
+body {
+  font-family: 'Verdana', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+.quote-container {
+  position: relative;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 0.5s ease;
+  overflow: hidden;
+}
+.quote-content {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 8px;
+  position: relative;
+  z-index: 1;
+}
+h1 {
+  color: #333;
+  margin-top: 0;
+}
+.quote-text {
+  font-size: 24px;
+  font-style: italic;
+  margin: 20px 0;
+}
+.author {
+  font-weight: bold;
+  text-align: right;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+button {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+button:hover {
+  background-color: #45a049;
+}
+#exportBtn {
+  background-color: #2196F3;
+}
+#exportBtn:hover {
+  background-color: #0b7dda;
+}
+#copyBtn {
+  background-color: #ff9800;
+}
+#copyBtn:hover {
+  background-color: #e68a00;
+}
+#shareBtn {
+  background-color: #1DA1F2;
+}
+#shareBtn:hover {
+  background-color: #0c85d0;
+}
