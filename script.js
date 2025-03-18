@@ -62,7 +62,7 @@ shareButton.addEventListener("click", () => {
     `${quoteElement.innerText} ${authorElement.innerText}`
   );
   window.open(
-    `https://twitter.com/intent/tweet?text=${quoteText}&hashtags=randomquotes`,
+    `https://x.com/intent/tweet?text=${quoteText}&hashtags=randomquotes`,
     "_blank"
   );
 });
