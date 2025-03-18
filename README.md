@@ -28,4 +28,4 @@ Use the Live Server extension in VSCode to run the project locally.
 - Share the quote on Twitter using the "Share on Twitter" button.
 - Export the quote with its background image using the "Export" feature.
 
-Enjoy exploring the Random Quotes Generator!
+Explore deployed webpage here: [Random Qoutes Generator](https://random-quotes-theta-blue.vercel.app/)
